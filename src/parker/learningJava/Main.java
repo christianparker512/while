@@ -3,7 +3,12 @@ package parker.learningJava;
 public class Main {
 
     public static void main(String[] args) {
-	    int count = 0;
+	    int count = 1;
+	    while(count !=6){
+            System.out.println("count value is " + count);
+            count++;
+        }
+	    count =1;
 	    while(true){
             if(count ==6) {
                 break;
